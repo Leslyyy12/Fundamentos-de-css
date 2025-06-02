@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/basic.css">
+</head>
+<body>
+    <header>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+          <button class="cerrar-menu" id="cerrar" ><i class="bi bi-x"></i></button>
+          <ul class="nav-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="BoxM.html">Box Model</a></li>
+            <li><a href="Visual.html">Posicionamiento y visualización</a></li>
+            <li><a href="Grid.html">Flexbox y Grid</a></li>
+            <li><a href="basic.html">Más información sobre selectores</a></li>
+          </ul>
+      </nav>
+    </header>
+    <p class="cursiv">Selectores básicos</p>
+<br><br><br>
+    
+     <p>1.- Elemento: P {color:blue}.</p><br>
+     <p>2.- Clase: .rojo {color:red;}.</p><br>
+     <p>3.- ID: #titulo { font-size: 24px; }.</p><br>
+     <p>4.- Universal: * { margin: 0; padding: 0; } .</p><br>
+     <p>Ejemplo:</p><br>
+     <h3>Html</h3><br>
+     <img src="img/selector html.png" class="img-center" alt="ejem"><br>
+     <h3>Css</h3>
+     <img src="img/selector css.png" class="img-center" alt="ejem"><br>
+     <h3>Resultado:</h3>
+     <img src="img/selector result.png" class="img-center"S alt="ejem"><br><br>
+
+
+     <p class="monos">Selectores combinados (Combinadores)</p><br><br>
+
+     <p>1.- Descendiente: div p {colo:gree}</p><br>
+     <p>2.- Hijo directo: ul>li {list-style:square;}</p><br>
+     <p>3.- Hermano adyacente: h1 + p { font-weight: bold; }</p><br>
+     <p>4.- Hermanos generales: h1 ~ p { color: gray; }</p><br>
+     <p>Ejemplo:</p><br>
+     <h3>Html</h3><br>
+     <img src="img/padre html.png" class="img-center" alt="ejem"><br>
+     <h3>Css</h3>
+     <img src="img/padre cs.png" class="img-center" alt="ejem"><br>
+     <h3>Resultado:</h3>
+     <img src="img/padre result.png" class="img-center"S alt="ejem"><br><br>
+
+   
+     <p class="monos">Selectores de atributo</p><br><br>
+
+     <p>1.- input[type="text"] { border: 1px solid gray; }</p><br>
+     <p>2.- a[href$=".pdf"] { color: red; }</p><br>
+     <p>3.- [class*="boton"] { background-color: yellow; }</p><br>
+     <p>Ejemplo:</p><br>
+     <h3>Html</h3><br>
+     <img src="img/atributo html.png" class="img-center" alt="ejem"><br>
+     <h3>Css</h3>
+     <img src="img/atribute css.png" class="img-center" alt="ejem"><br>
+     <h3>Resultado:</h3>
+     <img src="img/atributo result.png" class="img-center"S alt="ejem"><br><br>
+
+
+     
+    
+     <p class="monos">Selectores de atributo</p><br><br>
+
+     <p>1.- input[type="text"] { border: 1px solid gray; }</p><br>
+     <p>2.- a[href$=".pdf"] { color: red; }</p><br>
+     <p>3.- [class*="boton"] { background-color: yellow; }</p><br>
+     <p>Ejemplo:</p><br>
+     <h3>Html</h3><br>
+     <img src="img/atributo html.png" class="img-center" alt="ejem"><br>
+     <h3>Css</h3>
+     <img src="img/atribute css.png" class="img-center" alt="ejem"><br>
+     <h3>Resultado:</h3>
+     <img src="img/atributo result.png" class="img-center"S alt="ejem"><br><br>
+</p><br>
+
+    <p class="monos">Pseudo-Clases</p><br><br>
+     <p>1.- button:hover { background-color: blue; }</p><br>
+     <p>2.- ul li:first-child { font-weight: bold; }</p><br>
+     <p>3.- input:focus { border-color: blue; }</p><br>
+     <p>Ejemplo:</p><br>
+     <h3>Html</h3><br>
+     <img src="img/clase html.png" class="img-center" alt="ejem"><br>
+     <h3>Css</h3>
+     <img src="img/clase css.png" class="img-center" alt="ejem"><br>
+     <h3>Resultado:</h3>
+     <img src="img/clases result.png" class="img-center"S alt="ejem"><br><br>
+
+
+     <p class="monos">Pseudo-elementos</p><br><br>
+     <p>1.- p::first-letter { font-size: 200%; color: red; }</p><br>
+     <p>2.- p::after { content: " [icono lupa]"; }</p><br>
+     <p>Ejemplo:</p><br>
+     <h3>Html</h3><br>
+     <img src="img/elementos html.png" class="img-center" alt="ejem"><br>
+     <h3>Css</h3>
+     <img src="img/elementos css.png" class="img-center" alt="ejem"><br>
+     <h3>Resultado:</h3>
+     <img src="img/elementos result.png" class="img-center"S alt="ejem"><br><br>
+
+   
